@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "EnhanceCF",
+  "version": "1.3",
+
+  "description": "Adds a 'See All Submissions' button in Codeforces problem pages",
+
+  "icons": {
+    "48": "icons/index.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.codeforces.com/problemset/problem/*", "*://*.codeforces.com/contest/*/problem/*"],
+      "js": ["enhance.js"]
+    }
+  ]
+
+}
