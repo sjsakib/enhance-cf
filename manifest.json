@@ -4,7 +4,7 @@
   "name": "EnhanceCF",
   "version": "1.3",
 
-  "description": "Adds a 'See All Submissions' button in Codeforces problem pages",
+  "description": "Adds a 'All Submissions' button in Codeforces problem pages",
 
   "icons": {
     "48": "icons/index.png"
